@@ -22,16 +22,16 @@ Por fim, foram feitos ajustes nos Controllers do projeto MVC para ligar a Autent
 Para criar um novo empregado é preciso registar um novo usuário. O empregado necessita de fazer o Login para poder criar ou editar produtos. Se não estiver logado, a pessoa não poderá inserir nem editar produtos.
 
 
-#####Lista de Produtos antes do login:
+##### Lista de Produtos antes do login:
 ![Lista de Produtos sem Login](produtos_sem_login.png?raw=true "Lista de Produtos sem Login")
 
-#####Lista de Produtos depois do login:
+##### Lista de Produtos depois do login:
 ![Lista de Produtos com Login](produtos_com_login.png?raw=true "Lista de Produtos com Login")
 
 Um funcionário só poderá gerir os produtos que ele mesmo inseriu.  
 
 Os dados podem ser acessados através de um web service. Para utilizar este serviço é necessário digitar portal / api / controllerapi. Como, por exemplo, para acessar a lista de empregados o pedido será: http://localhost:51330/api/empregadosapi.
 
-#####Acesso à lista de funcionários através de WebService:
+##### Acesso à lista de funcionários através de WebService:
 
 ![Lista de funcionários através de WebService](webservice.png?raw=true "Lista de funcionários através de WebService")
